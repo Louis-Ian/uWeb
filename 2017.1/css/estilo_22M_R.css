@@ -1,0 +1,25 @@
+ul{
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	width: 800px;
+}
+
+ul li {
+	width: 30%;
+	display: inline-block;
+	background-color: rgba(0,0,200,0.3);
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+
+/*media query*/
+@media(max-width: 799px){
+	ul{
+		width: 500px;
+	}
+	ul li {
+		width:45%;
+	}
+}

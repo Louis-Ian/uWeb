@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	</head>
+
+	<body>
+
+		<form id="form" action="javascript:void(0)" onsubmit="cadastrar()">
+			<input type="text" placeholder="Descrição">
+			<input id="presso" type="number" step="0.01" min="30.00" max="10000">
+
+			<input id="arquivo" type ="file" multiple>
+			<label for="arquivo">Escolha um arquivo</label>
+
+			<input type="submit" value="Cadastrar">
+		</form>
+
+		<ul id="lista">
+			<li class="item">
+				<figure>
+					<img src="img/produtos/foto1-azul.png">
+					<figcaption>
+						Blusa aleatória azul por R$100,00
+					</figcaption>
+				</figure>
+			</li>
+		</ul>
+
+		
+		<script type="text/javascript" src="JS/jquery.js"></script>
+		<script type="text/javascript" src="JS/script1.js"></script>
+		<script type="text/javascript" src="JS/script2.js"></script>
+	</body>
+</html>

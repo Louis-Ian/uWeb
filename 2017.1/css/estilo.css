@@ -1,0 +1,37 @@
+/*
+margin:
+padding: */
+
+h1 {
+	color: rgb(204,204,10);
+}
+
+li{
+	color: white;
+}
+
+ul li div h4{
+	color: black;
+}
+
+
+
+a{
+	color: orange;
+}
+
+#Heroi{
+	background-color: blue;
+}
+
+#Viloes{
+	background-color: red;
+}
+
+#Planetas{
+	background-color: rgba(130,110,10,0.6);
+}
+
+.class Titulo{
+	color: rgba(180,200,10);
+}

@@ -1,0 +1,31 @@
+body{
+	/*margem nos arredores*/
+	margin:  ;
+	/*margem dentro*/
+	padding: ;
+}
+
+.basic{
+	width: 100%; 
+	max-height: 250px;
+}
+
+#d1 {
+
+
+	background-color: yellow;
+;
+}
+
+#d2 {
+
+
+	background-color: #ff25d2;
+}
+
+#d3 {
+
+
+	background-color: rgb(150,255,150);
+
+}

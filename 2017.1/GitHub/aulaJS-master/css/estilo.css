@@ -1,0 +1,55 @@
+#arquivo  {
+	display:none;
+}
+
+#presso {
+	width: 90px;
+}
+
+form label{
+	width: 165px;
+}
+
+form input,form label {
+	display: block;
+	margin-top: 20px;
+}
+
+label{
+	background: #ccc;
+	padding: 10px;
+	border: solid #999 2px;
+	cursor: pointer;
+}
+
+#lista{
+	list-style: none;
+	padding: 20px;
+	background-color: #dcdcf5;
+	box-shadow: 1px 1px 4px #999;
+	border-radius: 4px;
+	text-align: center;
+}
+
+.item {
+	width: 20%;
+	display: inline-block;
+}
+
+.item figure{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.item figure img {
+	width: 200px;
+}
+
+.item figure figcaption{
+	font-size: 12px;
+	
+	margin-top: 15px;
+	text-align: center;
+}

@@ -1,0 +1,22 @@
+body{
+	background-color: black;
+}
+
+#d1{
+	width: 200px;/*se width e height fossem iguais seria um 
+	quadrado e border-adius transformaria num círculo*/
+	height: 130px;
+	background-color: rgb(200,120,200);
+	border-radius: 5%;
+
+	transition: 1s;
+}
+
+#d1:hover
+{
+	transform: translate(0px,0px) rotate(360deg) scale(0.1);
+	/*pode sey y,x ou (x,y)*/
+	width: 180px;
+	background-color: white;
+	transition: transform 15s;
+}

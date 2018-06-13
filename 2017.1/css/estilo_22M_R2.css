@@ -1,0 +1,10 @@
+body{
+	background-color: red;
+}
+ul {
+	width: 500px; 
+}
+
+ul li {
+	width: 45px;
+}

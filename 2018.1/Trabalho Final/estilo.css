@@ -1,0 +1,74 @@
+header {
+	background-color: lightgrey;
+	height: 70px;
+}
+
+#logoMenu {
+	height: auto;
+	width: auto;
+	max-height: 100px; 
+	max-width: 200px;
+}
+
+div.divLogo {
+	position: absolute;
+	left: 60px;
+	top: 20px;
+	margin: auto;
+	width: auto;
+	max-width: 300px;
+}
+
+.topo {
+	position: absolute;
+	right: 80px;
+	top: 28px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+}
+
+.botoes {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+a:link {
+    color: black;
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: black; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:hover {
+    color: black; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:active {
+    color: black; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+#player {
+	height: auto;
+	width: auto;
+	max-height: 500px;
+}
+
+footer {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	height: auto;
+	width: auto;
+	min-height: 80px;	
+	min-width: 10000px;
+	background-color: lightgray;
+	color: black;
+}

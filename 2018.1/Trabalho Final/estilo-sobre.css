@@ -1,5 +1,6 @@
 header {
-	position: absolute;
+	overflow: auto;
+	position: fixed;
 	top: 0px;
 	left: 0px;
 	background-color: lightgrey;
@@ -8,22 +9,26 @@ header {
 }
 
 #logoMenu {
+	overflow: auto;
 	height: auto;
 	width: auto;
 	max-height: 100px; 
 	max-width: 200px;
 }
 
-div.imgLogo {
+.imgLogo {
+	overflow: auto;
 	position: absolute;
 	left: 10%;
 	top: 20px;
 	margin: auto;
 	width: auto;
 	max-width: 300px;
+	max-height: 300px;
 }
 
 .topo {
+	overflow: auto;
 	position: absolute;
 	right: 80px;
 	top: 28px;
@@ -32,91 +37,106 @@ div.imgLogo {
 }
 
 .botoes {
+	overflow: auto;
 	padding-left: 10px;
 	padding-right: 10px;
 }
 
 a:link {
+	overflow: auto;
     color: black;
     background-color: transparent; 
     text-decoration: none;
 }
 
 a:visited {
+	overflow: auto;
     color: black; 
     background-color: transparent; 
     text-decoration: none;
 }
 
 a:hover {
+	overflow: auto;
     color: black; 
     background-color: transparent; 
     text-decoration: none;
 }
 
 a:active {
+	overflow: auto;
     color: black; 
     background-color: transparent; 
     text-decoration: none;
 }
 
-#imagem-banda {
-	float: left;
-	height: auto;
-	width: auto;
-	max-width: 20%;
-	margin-top: 10px;
-	margin-bottom: 20px;
-	margin-left: 5%;
-}
-
 #banda {
+	overflow: auto;
 	margin-top: 120px;
 }
 
-#banda p {
-	position: absolute;
+.imagem-integrantes-esquerda {
+	overflow: auto;
+	float: left;
+	height: auto;
+	width: auto;
+	max-width: 25%;
+	max-height: 25%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.imagem-integrantes-direita {
+	overflow: auto;
+	float: right;
+	height: auto;
+	width: auto;
+	max-width: 25%;
+	max-height: 25%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.textoSobre-direita {
+	overflow: auto;
 	left: 27%;
+	right: 10%;
 	height: auto;
 	width: auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	margin-right: 90px;
+	margin-right: 120px;
 	font-family: 'Montserrat';
+	font-size: 18px;
+	text-align: left;
 }
 
-#imagem-vocalista {
-	height: auto;
-	width: auto;
-	max-width: 15%;
-	margin-top: 10px;
-	margin-bottom: 20px;
-	margin-left: 5%;
-}
-
-#vocalista {
-	float: left;
-}
-
-#vocalista p {
-	float: right;
+.textoSobre-esquerda {
+	overflow: auto;
 	left: 27%;
 	right: 10%
 	height: auto;
 	width: auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	margin-right: 90px;
+	margin-left: 120px;
 	font-family: 'Montserrat';
+	font-size: 18px;
+	text-align: right;
 }
 
 footer {
-	position: absolute;
+	overflow: auto;
+	position: relative;
 	bottom: 0px;
 	left: 0px;
 	height: auto;
 	width: auto;
-	min-height: 80px;	
+	min-height: 60px;	
 	min-width: 10000px;
 	background-color: lightgray;
 	color: black;

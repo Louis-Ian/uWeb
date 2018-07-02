@@ -1,6 +1,11 @@
 header {
+	overflow: auto;
+	position: fixed;
+	top: 0px;
+	left: 0px;
 	background-color: lightgrey;
-	height: 70px;
+	width: 100%;
+	height: 80px;
 }
 
 #logoMenu {
@@ -10,13 +15,14 @@ header {
 	max-width: 200px;
 }
 
-div.divLogo {
+.imgLogo {
 	position: absolute;
 	left: 60px;
 	top: 20px;
 	margin: auto;
 	width: auto;
 	max-width: 300px;
+	max-height: 300px;
 }
 
 .topo {
@@ -55,10 +61,12 @@ a:active {
     background-color: transparent; 
     text-decoration: none;
 }
+
 #player {
 	height: auto;
 	width: auto;
 	max-height: 500px;
+	margin-top: 9%;
 }
 
 footer {

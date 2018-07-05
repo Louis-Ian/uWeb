@@ -17,7 +17,6 @@ header {
 }
 
 .imgLogo {
-	overflow: auto;
 	position: absolute;
 	left: 10%;
 	top: 20px;
@@ -130,14 +129,12 @@ a:active {
 }
 
 footer {
-	overflow: auto;
 	position: relative;
 	bottom: 0px;
 	left: 0px;
 	height: auto;
-	width: auto;
-	min-height: 60px;	
-	min-width: 10000px;
+	width: 100%;
+	min-height: 60px;
 	background-color: lightgray;
 	color: black;
 }

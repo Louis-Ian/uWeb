@@ -17,7 +17,7 @@ header {
 
 .imgLogo {
 	position: absolute;
-	left: 60px;
+	left: 10%;
 	top: 20px;
 	margin: auto;
 	width: auto;
@@ -70,13 +70,12 @@ a:active {
 }
 
 footer {
-	position: fixed;
+	position: relative;
 	bottom: 0px;
 	left: 0px;
 	height: auto;
-	width: auto;
-	min-height: 80px;	
-	min-width: 10000px;
+	width: 100%;
+	min-height: 80px;
 	background-color: lightgray;
 	color: black;
 }

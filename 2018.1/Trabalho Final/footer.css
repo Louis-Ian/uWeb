@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+#container {
+	min-height: 100%;
+	background-color: lightgrey;
+}
+
+#main {
+	overflow: auto;
+	padding-bottom: 60px;
+	background-color: red;
+}
+
+h1 {
+	font-family: montserrat;
+	text-align: center;
+}
+
+#footer {
+	height: 60px;
+	color: lightgrey;
+	background-color: black;
+	margin-top: -60px;
+	clear: both;
+}

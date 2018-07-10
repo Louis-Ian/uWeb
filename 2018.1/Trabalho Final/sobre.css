@@ -1,13 +1,10 @@
-html {
-	min-height: 100%;
-	margin: 0px;
-	padding: 0px;
+* {
+	margin: 0;
+	padding: 0;
 }
 
-body {
-	min-height: 100%;
-	margin-right: 0px;
-	padding: 0px;
+html, body {
+	height: 100%;
 }
 
 header {
@@ -43,7 +40,7 @@ header {
 	position: absolute;
 	right: 80px;
 	top: 28px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat';
 	font-size: 24px;
 }
 
@@ -140,8 +137,8 @@ a:active {
 	text-align: right;
 }
 
-footer {
-	position: absolute;
+#footer {
+	position: relative;
 	margin: 0px;
 	padding: 0px;
 	bottom: 0px;

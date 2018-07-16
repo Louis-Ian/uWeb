@@ -18,6 +18,7 @@ header {
 }
 
 #logoMenu {
+	overflow: auto;
 	height: auto;
 	width: auto;
 	max-height: 100px; 

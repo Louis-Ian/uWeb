@@ -5,11 +5,21 @@
 
 html, body {
 	height: 100%;
+	width: 100%;
+}
+
+#container {
+	min-height: 100%;
+}
+
+#content {
+	overflow: auto;
+	padding-bottom: 80px;
 }
 
 header {
 	overflow: auto;
-	position: fixed;
+	position: relative;
 	top: 0px;
 	left: 0px;
 	background-color: lightgrey;
@@ -88,8 +98,8 @@ a:active {
 	float: left;
 	height: auto;
 	width: auto;
-	max-width: 25%;
-	max-height: 25%;
+	max-width: 300px;
+	max-height: 300px;
 	margin-top: 10px;
 	margin-bottom: 20px;
 	margin-left: 5%;
@@ -101,8 +111,8 @@ a:active {
 	float: right;
 	height: auto;
 	width: auto;
-	max-width: 25%;
-	max-height: 25%;
+	max-width: 300px;
+	max-height: 300px;
 	margin-top: 10px;
 	margin-bottom: 20px;
 	margin-left: 5%;
@@ -137,15 +147,15 @@ a:active {
 	text-align: right;
 }
 
-#footer {
+footer {
 	position: relative;
-	margin: 0px;
+	margin-top: -80px;
 	padding: 0px;
 	bottom: 0px;
 	left: 0px;
-	min-width: 100%;
-	height: auto;
-	min-height: 60px;
-	background-color: lightgray;
+	height: 80px;
+	width: 100%;
+	background-color: lightgrey;
 	color: black;
+	clear: both;
 }

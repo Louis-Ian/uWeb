@@ -5,11 +5,21 @@
 
 html, body {
 	height: 100%;
+	width: 100%;
+}
+
+#container {
+	min-height: 100%;
+}
+
+#content {
+	overflow: auto;
+	padding-bottom: 80px;
 }
 
 header {
 	overflow: auto;
-	position: fixed;
+	position: relative;
 	top: 0px;
 	left: 0px;
 	background-color: lightgrey;
@@ -80,15 +90,14 @@ a:active {
 }
 
 footer {
-	overflow: auto;
-	position: absolute;
-	margin: 0px;
+	position: relative;
+	margin-top: -80px;
 	padding: 0px;
 	bottom: 0px;
 	left: 0px;
-	height: auto;
+	height: 80px;
 	width: 100%;
-	min-height: 80px;
 	background-color: lightgrey;
 	color: black;
+	clear: both;
 }

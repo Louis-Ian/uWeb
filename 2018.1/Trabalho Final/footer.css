@@ -5,6 +5,7 @@
 
 html, body {
 	height: 100%;
+	width: 100%;
 }
 
 #container {
@@ -14,6 +15,7 @@ html, body {
 
 #main {
 	overflow: auto;
+	/* height: 2300px; */
 	padding-bottom: 60px;
 	background-color: red;
 }
@@ -24,6 +26,7 @@ h1 {
 }
 
 #footer {
+	position: relative;
 	height: 60px;
 	color: lightgrey;
 	background-color: black;
